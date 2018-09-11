@@ -1,0 +1,276 @@
+
+.index-banner{
+    position: relative;
+    background: #b3b3b3;
+}
+
+.index-banner-bg{
+    height: 570px;
+    overflow: hidden;
+}
+.index-banner-bg img{
+    margin: 0 auto;
+}
+.index-banner-text{
+    position: absolute;
+    top:200px;
+    left:50%;
+    margin-left: -388px;
+}
+
+.index-banner-text .text-logo{
+    width: 776px;
+    height: 117px;
+    background: url("../images/index-banner-text-logo.png");
+}
+.index-banner-text .text-info{
+    text-align: center;
+    margin-top: 17px;
+    color: #fff;
+}
+.index-banner-text .text-info .line{
+    display: inline-block;
+    width: 40px;
+    border-top:1px solid #fff ;
+    vertical-align: middle;
+}
+
+/*.index-banner-text .text-info .line-l{
+    margin-right: 26px;
+
+}
+
+.index-banner-text .text-info .line-r{
+    margin-left: 26px;
+
+}*/
+
+.index-banner-text .text-info .txt{
+    margin: 0 26px;
+}
+
+/*菜单*/
+.index-menu{
+    position: relative;
+    border-top: 4px solid #f34949;
+}
+
+.index-menu .menu-tips{
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-left: -78px;/*因为是居中 所以如果不设置-78的话 由方框的最左边那条边跟中间对齐*/
+    width: 156px;
+    height: 75px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    background: #f34949;
+}
+
+.index-menu .menu-tips:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 78px solid transparent;
+    border-right:78px solid transparent;
+    border-bottom: 10px solid #fff;/*正三角形*/
+}
+
+.index-menu .menu-list{
+    margin-top: 152px;
+    color:#555;
+    overflow: hidden;
+}
+.index-menu .menu-list ul{
+    width:1160px;
+    list-style: none;
+
+}
+.index-menu .menu-item{
+    float:left;
+    width:520px;
+    margin-right: 60px;
+    margin-bottom: 56px;
+}
+
+.index-menu .menu-item .title,.index-menu .menu-item .line{
+    float:left;
+}
+
+.index-menu .menu-item .price{
+    float:left;
+    margin-left: 20px;
+}
+
+.index-menu .menu-item .title{
+    width:230px;
+    color:#555;
+    overflow:hidden;
+    white-space: nowrap;/*文本不换行*/
+    text-overflow: ellipsis;/*使用给定的字符串来代表被修剪的文本*/
+}
+
+.index-menu .menu-item .title .headline{
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.index-menu .menu-item .title .comment{
+    margin-top: 4px;
+    color:#b7b7b7;
+    font-size:12px;
+}
+
+.index-menu .menu-item .line{
+    margin-top:10px;
+    width:192px;
+    border-top:1px solid #e3e1e1;
+}
+
+.index-menu .menu-more-btn{
+
+    margin-left: 600px;
+    width: 105px;
+    height: 16px;
+    padding: 9px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #d7d5d5;
+    line-height: 32px;
+    color:#b7b7b7;
+}
+
+
+
+.index-menu .menu-more-btn .icon{
+    display: inline-block;
+    width: 11px;
+    height: 7px;
+    background: url("../images/index-menu-icon.gif");
+}
+
+.index-panel{
+    margin-top: 200px;
+}
+
+.index-panel-header .dishes{
+    margin-top: 0;
+    float: left;
+    margin-right: 48px;
+    font-size:20px;
+    color:#3b3b3b;
+    font-weight: normal;
+
+}
+
+.index-panel-header .line{
+    float:left;
+    margin-top: 7px;
+    width:200px;
+    border-top:1px solid #e5e3e3;
+}
+
+.index-panel-header .btn-group{
+    font-size: 0;/*btn中的inline-block有默认的4px间距 用这个可以清除*/
+    float:right;
+
+}
+
+.index-panel-header .btn{
+    display: inline-block;
+    margin-left: 11px;/*如果没有清除默认间距 那么这里为7px*/
+    width:9px;
+    height: 9px;
+    background: #dedede;
+    border-radius: 50%;
+}
+
+.index-panel-header .btn-group .active{
+    background:#9b9b9b ;
+}
+
+.index-panel-body {
+    margin-top: 75px;
+}
+
+.index-food-list{
+    overflow: hidden;
+
+}
+
+.index-food-list a{
+    text-decoration: none;
+}
+
+.index-food-list ul{
+    width: 1160px;
+    list-style: none;
+    padding-left:0 ;
+
+}
+.index-food-list .food-item{
+    float: left;
+    width:230px;
+    margin-right: 60px;
+
+}
+
+.index-food-list .banner{
+    margin-bottom: 30px;
+    height: 202px;
+}
+
+.index-food-list .food-item .name{
+    color:#555;
+    margin-bottom: 10px;
+}
+
+
+.index-food-list .food-item .name .price{
+    margin-left: 70px;
+
+}
+.index-food-list .food-item .star-bar{
+    font-size: 0;
+}
+
+.index-food-list .food-item .star{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    background: url("../images/index-star.png");
+    background-repeat: no-repeat;
+}
+.index-food-list .food-item .nostar{
+    background-position: 0 -13px;
+}
+
+.index-pics{
+    height: 381px;
+    overflow: hidden;
+    float: left;
+}
+
+.index-pics .pic-col{
+    float:left;
+}
+
+.index-pics .pic-col-m{
+   width: 353px;
+}
+
+.index-pics .pic-col-s{
+    font-size: 0;
+    width: 287px;
+    margin-top: 0;
+}
+.index-pics .pic-col-l{
+    width: 460px;
+}

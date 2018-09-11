@@ -1,0 +1,79 @@
+.public-header{
+    height: 110px;
+}
+
+.public-header .header-logo{
+    float: left;
+    margin-top: 40px;
+
+
+}
+.public-header .header-logo a{
+    display: inline-block;/*行内非替换元素，比如span、a等标签，正常情况下士不能设置宽高的，加上该属性之后，就可以触发让这类标签表现得如块级元素一样，可以设置宽高*/
+    height: 54px;
+    width: 182px;
+    background: url("../images/index-header-logo.png");
+}
+
+
+.public-header .header-nav{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+
+}
+.public-header .header-nav .item {
+    float: left;
+    margin-top: 44px;
+    margin-left:50px;
+}
+
+.public-header .header-nav a{
+    color: #3b3b3b;
+    text-decoration: none;
+
+}
+
+.public-header .header-nav a:hover{
+    text-decoration: underline;
+
+}
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.public-footer{
+    height: 218px;
+    padding-top: 100px;
+    margin-top: 200px;
+    background: #3b3b3b;
+}
+
+.public-footer .footer-col{
+    width:230px;
+    float: left;
+    margin-right: 60px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.public-footer .footer-col:last-child{
+    margin-right: 0;
+}
+
+.public-footer .footer-logo{
+    float:left;
+    width: 181px;
+    height: 54px;
+    margin-right: 68px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+    background: url("../images/index-footer-logo.png");
+
+
+}
+
